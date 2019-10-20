@@ -25,7 +25,7 @@ class Keu extends CI_Controller {
 
 
 //=============================== S U R A T  M A S U K ===============================
-  function surat_masuk($mode = 'view'){  // MODE 3Crud: Contoh Datatable JOIN yang ada ambigiusnya, ada if elsenya
+  function surat_masuk($mode = 'view'){  // MODE 3Crud: Contoh Datatable JOIN yang ada ambigiusnya, ada if elsenya.
     $data['page']  = "surat_masuk"; 
     if($mode=='view')
       $this->tampil($data);
